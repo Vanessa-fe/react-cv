@@ -67,9 +67,8 @@ const Navigation = () => {
                 
                 </ul>
 
-                <div className="signature">
-                <i className="fas fa-cherries"></i>
-                    <span>Vanessa Ferrand - 2022</span>
+                <div className="signature">                
+                    <p>🍒 Vanessa Ferrand - 2022</p>
                 </div>
             </div>
 

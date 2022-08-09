@@ -11,7 +11,7 @@ export default class ProjectList extends Component {
             {id: 3, value: "Php"},
             {id: 4, value: "React"}
         ],
-        selectedRadio: 'javascript'
+        selectedRadio: 'Javascript'
     };
 
     // Pour récupérer les infos et lier les languages dans les boutons radio
@@ -54,7 +54,8 @@ export default class ProjectList extends Component {
             {
               // Ici on map (affichage) tous les projets de la base de données du fichier portfolioData.js
              projects
-             .filter(item => item.languages.includes(selectedRadio))
+             //.filter(project => project.languages === selectedRadio)
+               .filter(project => project.languages.includes(selectedRadio))
               .map(item => {
               return (
                 <Project 

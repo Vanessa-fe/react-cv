@@ -18,7 +18,7 @@
       }
       h3 {
         font-size: 1.4rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
         font-family: $font-2;
         color: $color-5;
         text-transform: uppercase;
@@ -34,15 +34,16 @@
           "L"
           "F";
   
-        .languageDisplay {
+        .languagesDisplay {
           grid-area: L;
         }
-        .frameworkDisplay {
+        .frameworksDisplay {
           grid-area: F;
+          h3{
+            margin-top: 0.3rem;
+          }
         }
-        h3 {
-          margin-bottom: 0.3rem;
-        }
+      
   
         .years {
           font-size: .65rem;
@@ -51,7 +52,7 @@
           color: $white;
   
           span {
-            width: 36%;
+            width: 75%;
   
             &:nth-child(2){
               text-align: center; 
@@ -67,17 +68,17 @@
               content:'';
               background: rgba(180, 179, 179, 0.507);
               position: absolute;
-              height: 146px;
+              height: 119px;
               width: 1px;
               transform: translate(9px, 19px);
             }
           }
         }
         .languagesList {
-          padding-top: .5rem;
+          padding: .5rem 0 .5rem 0;
   
           li {
-            color: $color-1;
+            color: $color-6;
           }
           .progressBar {
             height: .4rem;
@@ -109,7 +110,7 @@
         margin: 0 0 .5rem .5rem;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 1fr 1fr;
+        grid-template-rows: 5% 1fr 1fr;
         grid-template-areas: 
           "1"
           "2"
@@ -127,39 +128,39 @@
           padding: 0.5rem 0 0.5rem 1rem;        
         }
         .mission {
-          color: rgb(255, 251, 0);
+          color: $color-6;
           font-size: medium;
         }
         p {
           text-decoration: underline;
           text-align: justify;
           color: white;
-          padding: 0 3rem;
+          padding: 0 2rem;
         }
         .liste {
           text-align: justify;
-          padding: .5rem 4rem;
+          padding: .5rem 3rem;
           color: white;
 
           span {
             visibility: hidden;
           }
         }
-        i{
-          margin: 0 3rem;
+        svg{
+          margin: 0 .3rem;
+          color: $color-6;
         }
-        .exp-1 {
+        .exp1 {
           grid-area: 2;
         }
-        .exp-2 {
+        .exp2 {
           grid-area: 3;
           >p{
             text-decoration: none !important;
           }
-        }        
-      }
-
-    
+        }   
+         
+      }   
 
       .otherSkills {
         grid-area: O;
@@ -171,29 +172,33 @@
           height: 100%;
           margin: 0 auto;
           justify-content: space-between;
+          color: white;
   
           ul {
             height: 80%;
             display: grid;
   
-            i {
-              color: $color-5;
+            svg {
+              padding-right: .5rem;
+              color: $color-6;
             }
           }
         }
       }
+
       .hobbies {
         grid-area: H;
         padding-left: 1.5rem;
+        color:white;
   
         ul {
           height: 80%;
           display: grid;
   
           li {
-            i {
+            svg {              
               position: absolute;
-              color: $color-5;
+              color: $color-6;
             }
             span {
               position: absolute;
@@ -202,7 +207,7 @@
           }
         }
       }
-    }
+          }
   }
   @media screen and (max-width: 950px){
     .knowledgesContent {
@@ -218,10 +223,25 @@
       .otherSkills, .hobbies {
         font-size: .8rem;
       }
+      .experience{
+          h4 {
+            font-size: .9rem;
+        }
+          .mission {
+            font-size: small;
+          }
+          h5 {
+            font-size: .7rem;
+          }
+          
     }
   }
+}
   @media screen and (max-width: 850px){
     .knowledgesContent {
+      span {
+        font-size: .8rem !important;
+      }
       h4 {
         font-size: .9rem !important;
       }
@@ -229,6 +249,18 @@
         font-size: .6rem !important;
         padding: .2rem 1rem !important;
       }
+      .mission {
+        font-size: 1rem !important;
+      }
+      p {
+        font-size: .9rem !important;
+      }
+      .liste {
+        font-size: .8rem !important;
+        text-align: justify !important;
+      }
+      
+  
     }
   }
   @media screen and (max-width: 500px){
@@ -237,8 +269,9 @@
       grid-template-columns: 1fr !important;
       grid-template-rows: 1fr 1fr 180px 180px !important;
       
-      .languages {
+      .languagesFrameworks {
         grid-area: 1 !important;
+        }
       }
       .experience {
         grid-area: 2 !important;
@@ -252,5 +285,6 @@
         grid-area: 4 !important;
         margin-top: .5rem !important;
       }
+     
     }
-  }
+  

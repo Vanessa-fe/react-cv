@@ -1,56 +1,47 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'ipsum.com',
-    languages: ['javascript','css'],
+    name: 'Bataille navale',
+    languages: ['Javascript','CSS'],
     languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project1.JPG'
+    source: 'https://github.com/Vanessa-fe/Bataille-navale',
+    info: 'Jeux de bataille navale en javascript et css. Projet réalisé lors de ma formation avec O\'Clock.',
+    picture: './media/bateau2.JPG'
   },
   {
     id: 2,
-    name: 'lorem.fr',
-    languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project2.JPG'
+    name: 'Rick and Morty', 
+    languages: ['Javascript','CSS'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
+    source: 'https://github.com/Vanessa-fe/Rick-Morty_Udemy',
+    info: 'Projet réaliser lors d\'une formation JS sur la plateforme Udemy.',
+    picture: './media/rick_morty.webp'
   },
   {
     id: 3,
-    name: 'dolorset.fr',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project3.JPG'
-  },
+    name: 'Météo',
+    languages: ['Javascript','CSS'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
+    source: 'https://github.com/Vanessa-fe/AppMeteo',
+    info: 'Projet d\'une application météo réalisé également lors d\'une formation sur la plateforme Udemy.',
+    picture: './media/meteo.webp'
+  }, 
   {
     id: 4,
-    name: 'laboriosam.fr',
-    languages: ['javascript','php','react'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
-  },
+    name: 'Clône react',
+    languages: ['Javascript','CSS', 'React'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt', 'fab fa-react'],
+    source: 'https://github.com/Vanessa-fe',
+    info: 'Pour apprendre react je vais suivre un cours pour clôner le site Netflix. Pour le moment j\'ai seulement préparé les fichiers et les dépendances, il n\'est pas encore sur Github',
+    picture: './media/netflix.png'
+  }, 
   {
     id: 5,
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
-  },
-  {
-    id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
+    name: 'Pokedex',
+    languages: ['Javascript','CSS', 'Php'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt', 'fab fa-php'],
+    source: 'https://github.com/Vanessa-fe/Pokedex',
+    info: 'Lors de ma formation avec O\'Clock nous avons dû programmer en PHP une application qui nous permettait de lister les pokemon ainsi de faire des trie grâce à un base de donnée. Je compte reprendre ce projet pour me remettre au PHP.',
+    picture: './media/pokedex.webp'
   },
 ]

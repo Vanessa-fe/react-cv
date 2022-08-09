@@ -7,8 +7,9 @@ const Contact = () => {
         <div className="contact">
             <Navigation />
             <div className="contactContent">
-                <div className="header">
-                    <div className="contactBox">
+                <div className="header">               
+                </div>
+                <div className="contactBox">
                         <h1>Contactez moi</h1>
                         <ul>
                             <li>
@@ -28,35 +29,18 @@ const Contact = () => {
                                 </CopyToClipboard>
                             </li>
                         </ul>
-                    </div>
-                    <div className="socialNetwork">
-                        <ul>
-                            <li>
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                </div>
+                <div className="socialNetwork">
+                        <ul>                            
+                                <a href="https://www.linkedin.com/in/vanessa-ferrand-75223214b/" target="_blank" rel="noopener noreferrer">
                                     <h4>LinkedIn</h4>
                                     <i className="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                                </a>                           
+                                <a href="https://github.com/Vanessa-fe" target="_blank" rel="noopener noreferrer">
                                     <h4>Gihub</h4>
                                     <i className="fab fa-github"></i>
                                 </a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                                    <h4>Twitter</h4>
-                                    <i className="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                                    <h4>CodePen</h4>
-                                    <i className="fab fa-codepen"></i>
-                                </a>
-                            </li>                
                          </ul>
-                    </div>
                 </div>
             </div>
         </div>
