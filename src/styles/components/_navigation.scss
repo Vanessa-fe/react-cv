@@ -1,5 +1,6 @@
 .sidebar {
     background: $color-1;
+    box-shadow: 10px 3px 500px grey;
     font-family: $font-1;
     height: 100%;
     min-height: $minHeight;
@@ -29,7 +30,7 @@
 
              img {
                  border-radius: 50%;
-                 box-shadow:0 0 0 8px $color-4, 0 0 0 12px $color-2;                 
+                 box-shadow: 10px 5px 30px grey;                 
              }
              h3 {
                  font-size: 1.3rem;
@@ -58,10 +59,10 @@
                     transform: translate(3px, 3px);
                  }
                  a {
-                     color: $color-5;
+                     color: $color-7;
                  }
                  .navActive {
-                    color: $color-4;
+                    color: $color-7;
                  }
                  i {
                     position: absolute;
@@ -114,7 +115,7 @@
         font-size: .7rem;
 
         p {
-            color: $color-5;
+            color: $color-7;
 
             &:hover {
                 color: $color-4;

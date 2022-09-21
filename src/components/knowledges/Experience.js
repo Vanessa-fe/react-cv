@@ -5,7 +5,7 @@ const Experience = () => {
         <div className="experience">
           <h3>Expérience</h3>
 
-          <div className="exp1">
+          <div className="exp">
             <h4>Développeur Front-End - Atecna</h4>
             <h5>2021-2022</h5>            
               <ul>
@@ -43,10 +43,7 @@ const Experience = () => {
                       </ul>                      
                 </li>
               </ul>
-          </div>
-
-          <div className="exp2">
-            <h4>Freelance</h4>
+                <h4>Freelance</h4>
             <h5>Oct/Nov 2021</h5>
             <ul className="liste">
               <li><i class="fa-brands fa-wordpress"></i> Refonte d'un site notarial avec thème WP</li>

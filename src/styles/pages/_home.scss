@@ -1,7 +1,8 @@
 .home {
 
     .homeContent {
-      background: $color-2;
+      background: $color-1;
+      box-shadow: 10px 3px 50px grey;
       min-height: $minHeight;
       width: 100%;
       min-width: 500px;
@@ -21,7 +22,7 @@
       .content {
         position: absolute;
         top: 20%;
-        left: 13%;
+        left: 9%;
         font-family: $font-1;
   
         h1 {
@@ -34,8 +35,7 @@
         h2 {          
           font-size: 2.5rem;
           padding: 1.5rem 0 7rem;
-          color: $color-3;
-          text-shadow: 1px 4px 1px $black;
+          color: $color-7;
         }
         h2.typeWriter{
           font-size: 1.5rem;
@@ -51,8 +51,9 @@
             font-size: 1.5rem;
             background: $color-1;
             padding: 1rem 2rem;
+            margin: 0 1rem 0;
             border-radius: $borderRadius;
-            box-shadow: 0 5px 1px rgb(15, 15, 15);
+            box-shadow: 0 5px 10px grey;
             transition: 0.2s ease;
   
             &:hover {

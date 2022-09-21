@@ -1,7 +1,9 @@
 .knowledges {
     .knowledgesContent {
       min-height: $minHeight;
+      max-height: 95vh;
       width: 100%;
+      min-width: 500px;
       position: relative;
       overflow: hidden;
       display: grid;
@@ -12,7 +14,7 @@
         "O O H";
   
       .languagesFrameworks, .experience, .otherSkills, .hobbies {
-        background: $color-2;
+        background: $color-1;
         border-radius: $borderRadius;
         padding: .8rem;
       }
@@ -36,6 +38,7 @@
   
         .languagesDisplay {
           grid-area: L;
+          
         }
         .frameworksDisplay {
           grid-area: F;
@@ -53,6 +56,7 @@
   
           span {
             width: 75%;
+            color: $color-7;
   
             &:nth-child(2){
               text-align: center; 
@@ -106,6 +110,7 @@
         }
       }
       .experience {
+        overflow-y: scroll;
         grid-area: E;
         margin: 0 0 .5rem .5rem;
         display: grid;
@@ -122,6 +127,7 @@
         h4 {
           font-size: 1.1rem;
           color: $color-5;
+          margin-top:1rem;
         }
         h5 {
           color: $color-3;
@@ -134,13 +140,13 @@
         p {
           text-decoration: underline;
           text-align: justify;
-          color: white;
+          color: $color-7;
           padding: 0 2rem;
         }
         .liste {
           text-align: justify;
           padding: .5rem 3rem;
-          color: white;
+          color: $color-7;
 
           span {
             visibility: hidden;
@@ -150,15 +156,17 @@
           margin: 0 .3rem;
           color: $color-6;
         }
-        .exp1 {
+        /* .exp1 {
           grid-area: 2;
+          height: 70%;
         }
         .exp2 {
           grid-area: 3;
+          height: 30%;
           >p{
             text-decoration: none !important;
-          }
-        }   
+          } */
+         
          
       }   
 
@@ -172,7 +180,7 @@
           height: 100%;
           margin: 0 auto;
           justify-content: space-between;
-          color: white;
+          color: $color-7;
   
           ul {
             height: 80%;
@@ -189,7 +197,7 @@
       .hobbies {
         grid-area: H;
         padding-left: 1.5rem;
-        color:white;
+        color:$color-7;
   
         ul {
           height: 80%;
