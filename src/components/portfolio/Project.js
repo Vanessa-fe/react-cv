@@ -13,7 +13,7 @@ export default class Project extends Component {
 
 
   render() {
-    let{name, languagesIcons, source, picture} = this.props.item;
+    let{name, languagesIcons, source, picture, site} = this.props.item;
 
     
     return (
@@ -38,6 +38,9 @@ export default class Project extends Component {
                     <div className="sourceCode">
                       <a href={source} rel="noopenner noreferrer" className="button" target="_blank">Code source</a>
                     </div>
+                      <div className="sourceCode">
+                          <a href={site} rel="noopenner noreferrer" className="button" target="_blank">Site</a>
+                      </div>
                   </div>
 
                   <div className="button return" onClick={this.handleInfo}>

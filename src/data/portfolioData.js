@@ -40,6 +40,7 @@ export const portfolioData = [
     name: 'Pokedex',
     languages: ['Javascript','CSS', 'Php'],
     languagesIcons: ['fab fa-js','fab fa-css3-alt', 'fab fa-php'],
+    site: 'https://pokedex-vanessa.netlify.app',
     source: 'https://github.com/Vanessa-fe/Pokedex',
     info: 'Lors de ma formation avec O\'Clock nous avons dû programmer en PHP une application qui nous permettait de lister les pokemon ainsi de faire des trie grâce à un base de donnée. Je compte reprendre ce projet pour me remettre au PHP.',
     picture: './media/pokedex.webp'

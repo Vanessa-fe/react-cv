@@ -1,6 +1,6 @@
 .sidebar {
-    background: $color-1;
-    box-shadow: 10px 3px 500px grey;
+    background: $color-background;
+    box-shadow: 10px 3px 500px $color-shadow;
     font-family: $font-1;
     height: 100%;
     min-height: $minHeight;
@@ -30,14 +30,14 @@
 
              img {
                  border-radius: 50%;
-                 box-shadow: 10px 5px 30px grey;                 
+                 box-shadow: 10px 5px 30px $color-shadow;
              }
              h3 {
                  font-size: 1.3rem;
                  text-transform: uppercase;
                  letter-spacing: .2rem;
                  margin-top: 1.5rem;
-                 color: $color-5;
+                 color: $color-title;
              }
          }
      }
@@ -55,14 +55,15 @@
                  font-size: 1.3rem;
                  position: relative;
 
+
                  &:hover i{
                     transform: translate(3px, 3px);
                  }
                  a {
-                     color: $color-7;
+                     color: $color-text;
                  }
                  .navActive {
-                    color: $color-7;
+                    color: $color-text;
                  }
                  i {
                     position: absolute;
@@ -87,15 +88,15 @@
 
         li {
             font-size: 1.5rem;
-            background: $color-5;
-            color: $color-1;
+            background: $color-title;
+            color: $color-background;
             border-radius: 50%;
             padding: .5rem .8rem;
             transition: 0.3s;
             cursor: pointer;
 
             a:visited {
-                color: $color-1;
+                color: $color-background;
             }
             &:nth-child(1){
                 padding: .5rem .85rem;
@@ -104,7 +105,7 @@
                 padding: .5rem .75rem;
             }
             &:hover {
-                background: $color-2;
+                background: $color-linear;
             }
         }
     }
@@ -115,7 +116,7 @@
         font-size: .7rem;
 
         p {
-            color: $color-7;
+            color: $color-text;
 
             &:hover {
                 color: $color-4;

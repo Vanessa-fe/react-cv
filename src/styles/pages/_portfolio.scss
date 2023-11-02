@@ -17,12 +17,12 @@
         width: 100%;
         padding: 1rem 2rem;
         margin: 0 auto;
-        background: $color-1;
+        background: $color-background;
         user-select: none;
         box-shadow: $shadow;
     
         li {
-          color: $color-3;
+          color: $color-pink9;
           font-size: 1.1rem;
           text-transform: uppercase;
           padding: 0 1rem;
@@ -83,7 +83,7 @@
         justify-content: space-around;
     
         .project {
-          background: $color-2;
+          background: $color-linear;
           border-radius: $borderRadius;
           margin: 0.5rem 0 0 0;
           text-align: center;
@@ -108,12 +108,12 @@
     
           i {
             font-size: 1.45rem;
-            color: $color-1;
-            text-shadow: 0 0px 1px $color-1;
+            color: $color-background;
+            text-shadow: 0 0px 1px $color-background;
           }
         }
         h3 {
-          color: $color-7;
+          color: $color-text;
           grid-area: 2;
           font-family: $font-2;
           font-size: 1.65rem;
@@ -159,8 +159,8 @@
             top: 25%;
             width: 600px;
             margin: 0 auto;
-            color: $color-5;
-            background: $color-1;
+            color: $color-title;
+            background: $color-background;
             border-radius: $borderRadius;
             padding: 2rem;
             box-shadow: 0 10px 10px #333;
@@ -185,8 +185,8 @@
           }
           .button {
             cursor: pointer;
-            color: $color-1;
-            background: $color-5;
+            color: $color-background;
+            background: $color-title;
             border-radius: $borderRadius;
             padding: 1rem;
             transition: .2s;
