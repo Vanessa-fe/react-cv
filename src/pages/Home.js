@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
